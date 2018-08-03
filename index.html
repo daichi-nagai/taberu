@@ -1,191 +1,215 @@
 <!DOCTYPE html>
 <html>
-  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-    <meta charset="utf-8">
-    <meta lang="ja">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>タベル株式会社</title>
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">
-  </head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<meta charset="utf-8">
+<meta lang="ja">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>タベル株式会社</title>
+<link rel="stylesheet" href="styles/reset.css">
+<link rel="stylesheet" href="styles/style.css">
+<link rel="stylesheet" href="styles/validationEngine.jquery.css">
+</head>
 
-  <body class="drawer drawer--top">
+<body class="drawer drawer--top">
 
-    <header id="header">
-      <div class="warpper-header l-structure">
-        <div class="l-header-logo">
-          <a href="#"><img class="m-header-logo" src="images/taberu-logo.png" alt=""></a>
-        </div>
+	<header id="header">
+		<div class="warpper-header l-structure">
+			<div class="l-header-logo">
+				<a href="#"><img class="m-header-logo" src="images/taberu-logo.png" alt=""></a>
+			</div>
+			<ul class="l-header-menu-ul">
+				<li class="m-header-menu-li pc-show"><a class="menu-btn" href="#l-mission">ミッション</a></li>
+				<li class="m-header-menu-li pc-show"><a class="menu-btn" href="#l-service">サービス</a></li>
+				<li class="m-header-menu-li pc-show"><a class="menu-btn" href="#l-company">会社概要</a></li>
+				<li class="m-header-menu-li pc-show"><a class="menu-btn" href="#l-recruit">採用情報</a></li>
+				<li class="m-header-menu-li"><a class="jumptoform primary-btn" href="#l-contact">お問い合わせ</a></li>
+			</ul>
+		</div>
+	</header>
 
-        <ul class="l-header-menu-ul">
-          <li class="m-header-menu-li pc-show"><a class="menu-btn" href="#l-mission">ミッション</a></li>
-          <li class="m-header-menu-li pc-show"><a class="menu-btn" href="#l-service">サービス</a></li>
-          <li class="m-header-menu-li pc-show"><a class="menu-btn" href="#l-company">会社概要</a></li>
-          <li class="m-header-menu-li pc-show"><a class="menu-btn" href="#l-recruit">採用情報</a></li>
-          <li class="m-header-menu-li"><a class="jumptoform primary-btn" href="#l-contact">お問い合わせ</a></li>
-        </ul>
+	<section id="l-hero">
+		<div class="warpper-hero l-structure">
+			<h2 class="body-copy">You are<br>what you eat.</h2>
+		</div>
+	</section>
 
-      </div>
-    </header>
+	<section id="l-mission">
+		<h1 class="l-title"></h1>
+		<h2 class="m-statement">働く人を<br class="mb-show">食べるで応援する。</h2>
+		<p class="m-statement-desc t-18">タベルは、食事を通じて働く皆様が健康で生き生きと働ける社会の
+		<br class="pc-show">実現をミッションとしています。</p>
+	</section>
 
-    <section id="l-hero">
-      <div class="warpper-hero l-structure">
-        <h2 class="body-copy">You are<br>what you eat.</h2>
-      </div>
-    </section>
+	<section id="l-service">
+		<h1 class="l-title"></h1>
 
-    <section id="l-mission">
-      <h1 class="l-title"></h1>
-      <h2 class="m-statement">働く人を<br class="mb-show">食べるで応援する。</h2>
-      <p class="m-statement-desc t-18">タベルは、食事を通じて働く皆様が健康で生き生きと働ける社会の
-        <br class="pc-show">実現をミッションとしています。</p>
-    </section>
+		<div class="l-service-index">
+			<div class="m-service-img shogun pc-show">
+				<div class="m-service-bg">
+					<div class="m-service-bg-inner">
+						<a class="m-service-logo" href="#"><img class="m-header-logo" src="images/shogun-logo.png" alt=""></a>
+						<h3 class="m-service-title">予約不要の<br>オフィス弁当販売サービス</h3>
+						<p class="m-service-desc">弁当将軍は予約不要のお弁当宅配サービスです。120種類以上の日替わりメニューをオフィスへ定期訪問して社内販売いたします。その日の購入がゼロでも構いません。社員数5名以上のオフィスから訪問いたします。</p>
+						<a class="link-btn primary-btn" href="http://bento-shogun.jp/" target="_blank">サービスサイトを見る</a>
+					</div>
+				</div>
+			</div>
 
-    <section id="l-service">
-      <h1 class="l-title"></h1>
+			<div class="m-service-img l-reverse minna pc-show">
+				<div class="m-service-bg l-reverse">
+					<div class="m-service-bg-inner">
+						<a class="m-service-logo" href="#"><img class="m-header-logo" src="images/minna-logo.png" alt=""></a>
+						<h3 class="m-service-title">ワンコインの<br>デリバリー型社食サービス</h3>
+						<p class="m-service-desc">みんなの食堂は温かく、健康的な社食を提供できる福利厚生サービ スです。 管理栄養士が考える日替わりメニューで社員のコミュニケー ションを最大化できるデリバリー型の社食サービスを初期費用0円で 手軽に導入いただけます。</p>
+						<a class="link-btn primary-btn" href="https://shokudou.jp/" target="_blank">サービスサイトを見る</a>
+					</div>
+				</div>
+			</div>
 
-      <div class="l-service-index">
-        <div class="m-service-img shogun pc-show">
-          <div class="m-service-bg">
-            <div class="m-service-bg-inner">
-              <a class="m-service-logo" href="#"><img class="m-header-logo" src="images/shogun-logo.png" alt=""></a>
-              <h3 class="m-service-title">予約不要の<br>オフィス弁当販売サービス</h3>
-              <p class="m-service-desc">弁当将軍は予約不要のお弁当宅配サービスです。120種類以上の日替わりメニューをオフィスへ定期訪問して社内販売いたします。その日の購入がゼロでも構いません。社員数5名以上のオフィスから訪問いたします。</p>
-              <a class="link-btn primary-btn" href="http://bento-shogun.jp/" target="_blank">サービスサイトを見る</a>
-            </div>
-          </div>
-        </div>
+			<div class="m-service-img daily pc-show">
+				<div class="m-service-bg">
+					<div class="m-service-bg-inner">
+						<a class="m-service-logo" href="#"><img class="m-header-logo" src="images/daily-logo.png" alt=""></a>
+						<h3 class="m-service-title">栄養士監修の<br>健康的なお弁当販売</h3>
+						<p class="m-service-desc">カロリー、糖質、脂質は控えめ、それでいて必要な栄養素が詰まった 栄養士監修の日替りメニュー。忙しい生活で乱れがちな栄養バランスの問題を、お昼の1食で解決します。日本橋の店舗を始め、宅配でも販売しています。</p>
+						<a class="link-btn primary-btn" href="https://bento.jp/daily" target="_blank">サービスサイトを見る</a>
+					</div>
+				</div>
+			</div>
+		</div>
 
-        <div class="m-service-img l-reverse minna pc-show">
-          <div class="m-service-bg l-reverse">
-            <div class="m-service-bg-inner">
-              <a class="m-service-logo" href="#"><img class="m-header-logo" src="images/minna-logo.png" alt=""></a>
-              <h3 class="m-service-title">ワンコインの<br>デリバリー型社食サービス</h3>
-              <p class="m-service-desc">みんなの食堂は温かく、健康的な社食を提供できる福利厚生サービ スです。 管理栄養士が考える日替わりメニューで社員のコミュニケー ションを最大化できるデリバリー型の社食サービスを初期費用0円で 手軽に導入いただけます。</p>
-              <a class="link-btn primary-btn" href="https://shokudou.jp/" target="_blank">サービスサイトを見る</a>
-            </div>
-          </div>
-        </div>
+		<div class="mb-service-index mb-show">
+			<div class="m-serivice-img-mb-wrappper">
+				<span class="m-serivice-img-mb-shogun"></span><img class="m-serivice-img-mb shogun" src="images/service-bento.png" alt="">
+			</div>
 
-        <div class="m-service-img daily pc-show">
-          <div class="m-service-bg">
-            <div class="m-service-bg-inner">
-              <a class="m-service-logo" href="#"><img class="m-header-logo" src="images/daily-logo.png" alt=""></a>
-              <h3 class="m-service-title">栄養士監修の<br>健康的なお弁当販売</h3>
-              <p class="m-service-desc">カロリー、糖質、脂質は控えめ、それでいて必要な栄養素が詰まった 栄養士監修の日替りメニュー。忙しい生活で乱れがちな栄養バランスの問題を、お昼の1食で解決します。日本橋の店舗を始め、宅配でも販売しています。</p>
-              <a class="link-btn primary-btn" href="https://bento.jp/daily" target="_blank">サービスサイトを見る</a>
-            </div>
-          </div>
-        </div>
-      </div>
+			<div class="m-service-bg-inner">
+				<a class="m-service-logo" href="#"><img class="m-service-logo-img" src="images/shogun-logo.png" alt=""></a>
+				<h3 class="m-service-title">予約不要の<br>オフィス弁当販売サービス</h3>
+				<p class="m-service-desc">弁当将軍は予約不要のお弁当宅配サービスです。120種類以上の日替わりメニューをオフィスへ定期訪問して社内販売いたします。その日の購入がゼロでも構いません。社員数5名以上のオフィスから訪問いたします。</p>
+				<a class="link-btn primary-btn" href="http://bento-shogun.jp/" target="_blank">サービスサイトを見る</a>
+			</div>
 
-      <div class="mb-service-index mb-show">
-        <div class="m-serivice-img-mb-wrappper">
-        <span class="m-serivice-img-mb-shogun"></span><img class="m-serivice-img-mb shogun" src="images/service-bento.png" alt="">
-        </div>
+			<div class="m-serivice-img-mb-wrappper">
+				<span class="m-serivice-img-mb-minna"></span><img class="m-serivice-img-mb minna" src="images/service-minna.png" alt="">
+			</div>
 
-        <div class="m-service-bg-inner">
-          <a class="m-service-logo" href="#"><img class="m-service-logo-img" src="images/shogun-logo.png" alt=""></a>
-          <h3 class="m-service-title">予約不要の<br>オフィス弁当販売サービス</h3>
-          <p class="m-service-desc">弁当将軍は予約不要のお弁当宅配サービスです。120種類以上の日替わりメニューをオフィスへ定期訪問して社内販売いたします。その日の購入がゼロでも構いません。社員数5名以上のオフィスから訪問いたします。</p>
-          <a class="link-btn primary-btn" href="http://bento-shogun.jp/" target="_blank">サービスサイトを見る</a>
-        </div>
+			<div class="m-service-bg-inner">
+				<a class="m-service-logo" href="#"><img class="m-service-logo-img" src="images/minna-logo.png" alt=""></a>
+				<h3 class="m-service-title">ワンコインの<br>デリバリー型社食サービス</h3>
+				<p class="m-service-desc">みんなの食堂は温かく、健康的な社食を提供できる福利厚生サービ スです。 管理栄養士が考える日替わりメニューで社員のコミュニケー ションを最大化できるデリバリー型の社食サービスを初期費用0円で 手軽に導入いただけます。</p>
+				<a class="link-btn primary-btn" href="https://shokudou.jp/" target="_blank">サービスサイトを見る</a>
+			</div>
 
-        <div class="m-serivice-img-mb-wrappper">
-          <span class="m-serivice-img-mb-minna"></span><img class="m-serivice-img-mb minna" src="images/service-minna.png" alt="">
-        </div>
+			<div class="m-serivice-img-mb-wrappper">
+				<span class="m-serivice-img-mb-daily"></span><img class="m-serivice-img-mb daily" src="images/service-daily.png" alt="">
+			</div>
 
-        <div class="m-service-bg-inner">
-          <a class="m-service-logo" href="#"><img class="m-service-logo-img" src="images/minna-logo.png" alt=""></a>
-          <h3 class="m-service-title">ワンコインの<br>デリバリー型社食サービス</h3>
-          <p class="m-service-desc">みんなの食堂は温かく、健康的な社食を提供できる福利厚生サービ スです。 管理栄養士が考える日替わりメニューで社員のコミュニケー ションを最大化できるデリバリー型の社食サービスを初期費用0円で 手軽に導入いただけます。</p>
-          <a class="link-btn primary-btn" href="https://shokudou.jp/" target="_blank">サービスサイトを見る</a>
-        </div>
+			<div class="m-service-bg-inner">
+				<a class="m-service-logo" href="#"><img class="m-service-logo-img" src="images/daily-logo.png" alt=""></a>
+				<h3 class="m-service-title">栄養士監修の<br>健康的なお弁当販売</h3>
+				<p class="m-service-desc">カロリー、糖質、脂質は控えめ、それでいて必要な栄養素が詰まった 栄養士監修の日替りメニュー。忙しい生活で乱れがちな栄養バランスの問題を、お昼の1食で解決します。日本橋の店舗を始め、宅配でも販売しています。</p>
+				<a class="link-btn primary-btn" href="https://bento.jp/daily" target="_blank">サービスサイトを見る</a>
+			</div>
+		</div>
 
-        <div class="m-serivice-img-mb-wrappper">
-          <span class="m-serivice-img-mb-daily"></span><img class="m-serivice-img-mb daily" src="images/service-daily.png" alt="">
-        </div>
+	</section>
 
-        <div class="m-service-bg-inner">
-          <a class="m-service-logo" href="#"><img class="m-service-logo-img" src="images/daily-logo.png" alt=""></a>
-          <h3 class="m-service-title">栄養士監修の<br>健康的なお弁当販売</h3>
-          <p class="m-service-desc">カロリー、糖質、脂質は控えめ、それでいて必要な栄養素が詰まった 栄養士監修の日替りメニュー。忙しい生活で乱れがちな栄養バランスの問題を、お昼の1食で解決します。日本橋の店舗を始め、宅配でも販売しています。</p>
-          <a class="link-btn primary-btn" href="https://bento.jp/daily" target="_blank">サービスサイトを見る</a>
-        </div>
-      </div>
+	<section id="l-company">
+		<h1 class="l-title"></h1>
+		<div class="l-company-map pc-show">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7435750433287!2d139.69560971525817!3d35.6586888801995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ca9dee1033d%3A0x41d1596d75d67fba!2z44CSMTUwLTAwNDMg5p2x5Lqs6YO95riL6LC35Yy66YGT546E5Z2C77yS5LiB55uu77yR77yQ4oiS77yR77ySIOaWsOWkp-Wul-ODk-ODq--8k-WPt-mkqCDvvJnpmo4!5e0!3m2!1sja!2sjp!4v1532791014423" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+		<div class="l-company-info">
+			<table class="table-info">
+				<tr>
+					<th>会社名</th>
+					<td>タベル株式会社</td>
+				</tr>
+				<tr>
+					<th>住所</th>
+					<td>東京都渋谷区道玄坂2-10-12 新大宗ビル３号館９階</td>
+				</tr>
+				<tr>
+					<th>役員</th>
+					<td>代表取締役 石川聡  /  執行役員 小林篤昌</td>
+				</tr>
+				<tr>
+					<th>資本金</th>
+					<td>5,000万円</td>
+				</tr>
+				<tr>
+					<th>設立</th>
+					<td>2018年7月17日</td>
+				</tr>
+				<tr>
+					<th>従業員</th>
+					<td>約80名</td>
+				</tr>
+				<tr>
+					<th>電話番号</th>
+					<td>03-5539-6000</td>
+				</tr>
+			</table>
+			<div class="l-company-map mb-show">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7435750433287!2d139.69560971525817!3d35.6586888801995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ca9dee1033d%3A0x41d1596d75d67fba!2z44CSMTUwLTAwNDMg5p2x5Lqs6YO95riL6LC35Yy66YGT546E5Z2C77yS5LiB55uu77yR77yQ4oiS77yR77ySIOaWsOWkp-Wul-ODk-ODq--8k-WPt-mkqCDvvJnpmo4!5e0!3m2!1sja!2sjp!4v1532791014423" width="100%" height="240" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
 
-    </section>
+	<section id="l-recruit">
+		<h1 class="l-title"></h1>
+		<h2 class="m-recruit">仲間を<br class="mb-show">募集しています。 </h2>
+		<p class="m-recruit-desc t-18">”働く人を食べるで応援する”というタベルのミッションに
+		<br class="pc-show">賛同し、一緒に実現していける仲間を募集しています。
+		<br class="pc-show">少しでも興味がありましたら、お問い合わせください。</p>
+	</section>
 
-    <section id="l-company">
-      <h1 class="l-title"></h1>
-      <div class="l-company-map pc-show">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7435750433287!2d139.69560971525817!3d35.6586888801995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ca9dee1033d%3A0x41d1596d75d67fba!2z44CSMTUwLTAwNDMg5p2x5Lqs6YO95riL6LC35Yy66YGT546E5Z2C77yS5LiB55uu77yR77yQ4oiS77yR77ySIOaWsOWkp-Wul-ODk-ODq--8k-WPt-mkqCDvvJnpmo4!5e0!3m2!1sja!2sjp!4v1532791014423" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
-      <div class="l-company-info">
-          <table class="table-info">
-            <tr>
-            <th>会社名</th>
-            <td>タベル株式会社</td>
-            </tr>
-            <tr>
-            <th>住所</th>
-            <td>東京都渋谷区道玄坂2-10-12 新大宗ビル３号館９階</td>
-            </tr>
-            <tr>
-            <th>役員</th>
-            <td>代表取締役 石川聡  /  執行役員 小林篤昌</td>
-            </tr>
-            <tr>
-            <th>資本金</th>
-            <td>5,000万円</td>
-            </tr>
-            <tr>
-            <th>設立</th>
-            <td>2018年7月17日</td>
-            </tr>
-            <tr>
-            <th>従業員</th>
-            <td>約80名</td>
-            </tr>
-            <tr>
-            <th>電話番号</th>
-            <td>03-5539-6000</td>
-            </tr>
-            </table>
-        <div class="l-company-map mb-show">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7435750433287!2d139.69560971525817!3d35.6586888801995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ca9dee1033d%3A0x41d1596d75d67fba!2z44CSMTUwLTAwNDMg5p2x5Lqs6YO95riL6LC35Yy66YGT546E5Z2C77yS5LiB55uu77yR77yQ4oiS77yR77ySIOaWsOWkp-Wul-ODk-ODq--8k-WPt-mkqCDvvJnpmo4!5e0!3m2!1sja!2sjp!4v1532791014423" width="100%" height="240" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </section>
+	<section id="l-contact">
+		<h1 class="l-title"></h1>
+		<p class="m-contact-desc t-18">各サービスの導入に関してのご相談、<br>または採用に関して、お気軽にお問い合わせください。</p>
 
+		<div class="l-contact-form">
+			<form action="/thanks/index.php" method="post" accept-charset="utf-8" id="form">
+				<dl class="form-box">
+					<dt class="form-box__ttl">氏名<i class="icon-must">必須</i></dt>
+					<dd class="form-box__body"><span class="wpcf7-form-control-wrap text-407"><input type="text" name="personal_name" value="" size="54" class="wpcf7-form-control wpcf7-text validate[required]" aria-invalid="false" /></span></dd>
+				</dl>
+				<dl class="form-box">
+					<dt class="form-box__ttl">会社名</dt>
+					<dd class="form-box__body"><span class="wpcf7-form-control-wrap your-name"><input type="text" name="company_name" value="" size="54" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span></dd>
+				</dl>
+				<dl class="form-box">
+					<dt class="form-box__ttl">電話番号<i class="icon-must">必須</i></dt>
+					<dd class="form-box__body"><span class="wpcf7-form-control-wrap tel-749"><input type="tel" name="tel" value="" size="54" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel validate[required,optional,custom[phone]]" aria-required="true" aria-invalid="false" /></span></dd>
+				</dl>
+				<dl class="form-box">
+					<dt class="form-box__ttl">メールアドレス<i class="icon-must">必須</i></dt>
+					<dd class="form-box__body"><span class="wpcf7-form-control-wrap your-email"><input type="email" name="email" value="" size="54" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email validate[required,custom[email]]" aria-required="true" aria-invalid="false" /></span></dd>
+				</dl>
+				<dl class="form-box">
+					<dt class="form-box__ttl">お問い合わせ内容<i class="icon-must">必須</i></dt>
+					<dd class="form-box__body"><span class="wpcf7-form-control-wrap your-message"><textarea name="detail" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea validate[required]" aria-invalid="false"></textarea></span></dd>
+				</dl>
+				<p><input class="submit primary-btn" type="submit" value="送信" class="wpcf7-form-control wpcf7-submit" /></p>
+			</center>
+			</form>
+		</div>
+	</section>
 
-    <section id="l-recruit">
-      <h1 class="l-title"></h1>
-      <h2 class="m-recruit">仲間を<br class="mb-show">募集しています。 </h2>
-      <p class="m-recruit-desc t-18">”働く人を食べるで応援する”というタベルのミッションに
-        <br class="pc-show">賛同し、一緒に実現していける仲間を募集しています。
-        <br class="pc-show">少しでも興味がありましたら、お問い合わせください。</p>
-    </section>
+	<span><a href="#"><img class="m-jumptotop" src="images/jump-to-top.png" alt=""></a></span>
+	<footer><p><small>COPYRIGHT(C)2018 TABERU,INC ALLRIGHTSRESERVED.</small></p></footer>
 
-    <section id="l-contact">
-      <h1 class="l-title"></h1>
-      <p class="m-contact-desc t-18">各サービスの導入に関してのご相談、<br>または採用に関して、お気軽にお問い合わせください。</p>
-
-      <div class="l-contact-form">
-        <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSetZMy8oJuGqxkkfW5G0QRf5QVjdDEv6HbMKBZoAYsgUheIfQ/formResponse">
-        <span class="wpcf7-form-control-wrap text-407"><input placeholder="氏名" type="text" name="entry.1744466390" value="" size="54" class="wpcf7-form-control wpcf7-text" aria-invalid="false" /></span></label></p>
-        <span class="wpcf7-form-control-wrap your-name"><input placeholder="会社名" type="text" name="entry.1987182452" value="" size="54" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span> </label></p>
-        <span class="wpcf7-form-control-wrap tel-749"><input placeholder="電話番号" type="tel" name="entry.17736311" value="" size="54" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" /></span></label></p>
-        <span class="wpcf7-form-control-wrap your-email"><input placeholder="メールアドレス"　type="email" name="entry.1982163588" value="" size="54" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" /></span> </label></p>
-        <span class="wpcf7-form-control-wrap your-message"><textarea placeholder="お問い合わせ内容" name="entry.1874686341" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </label></p>
-        <p><input class="submit primary-btn" type="submit" value="送信" class="wpcf7-form-control wpcf7-submit" /></p>
-        </center>
-        </div>
-      </div>
-    </section>
-
-    <span><a href="#"><img class="m-jumptotop" src="images/jump-to-top.png" alt=""></a></span>
-    <footer><p><small>COPYRIGHT(C)2018 TABERU,INC ALLRIGHTSRESERVED.</small></p></footer>
-
-  </body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/jquery.validationEngine.js"></script>
+<script src="js/jquery.validationEngine-ja.js"></script>
+<script>
+	// jquery.validationEngine.js
+	$(document).ready(function() {
+		$('#form').validationEngine('attach', {
+			promptPosition: "bottomLeft"
+		});
+	});
+</script>
+</body>
 </html>
